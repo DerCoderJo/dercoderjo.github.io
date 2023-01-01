@@ -88,20 +88,13 @@ body section #titleText{
     transform: translate(-50%, -50%);
 }
 
-body section #invite{
+body section #titleInfo{
     position: absolute;
-    background-color: #808080;
-    border: none;
-    padding: 15px 50px;
-    font-size: 25px;
-    color: #000;
-    border-radius: 20px;
-    top: 37%;
+    color: #fff;
+    font-size: 50px;
+    top: 32%;
     left: 50%;
     transform: translate(-50%, -50%);
-    transition: background-color .5s;
-    text-decoration: none;
-    font-weight: bold;
 }
 
 body section #invite:hover{
@@ -113,8 +106,14 @@ body section #description{
     position: absolute;
     color: #fff;
     font-size: 20px;
-    top: 60%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+}
+
+body section div.privacy{
+    margin-top: 30%;
+    margin-left: 2%;
+    color: white;
 }
